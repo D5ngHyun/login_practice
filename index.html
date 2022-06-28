@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department - login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Author Style -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+
+
+</head>
+<body>
+    <a href="#" class="skip">
+        본문 바로가기
+    </a>
+    <div class="container">
+        <div class="inner-container">
+            <section class="section">
+                <form class="sec_form">
+                    <fieldset>
+                        <legend class="en sec_form_title">DEPARTMENT</legend>
+                        
+                        <div class="input_wrapper">
+                            <div class="input_wrapper_box">
+                                <p class="iw_title"><label for="email" class="en">email</label></p>
+                                <input class="iw_input" type="text" name="email" id="email" placeholder="이메일을 입력하세요" />
+                            </div>
+                            <!-- 이메일 -->
+    
+                            <div class="input_wrapper_box">
+                                <p class="iw_title"><label for="password" class="en">password</label></p>
+                                <input class="iw_input" type="text" name="password" id="password" placeholder="비밀번호를 입력하세요" />
+                            </div>
+                            <!-- 패스워드 -->
+                        </div>
+
+                        <a href="./register.html" class="sec_link">아직 회원이 아니신가요?</a>
+
+                        <button type="submit" class="sec_submit">로그인</button>
+                        <!-- 로그인 -->
+
+                        <div class="sec_with_login">
+                            <h6 class="en">with login</h6>
+                            <ul>
+                                <li class="naver">
+                                    <a href="#">
+                                        <div class="login_btn">
+                                            네이버
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="kakao">
+                                    <a href="#">
+                                        <div class="login_btn">
+                                            카카오
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="google">
+                                    <a href="#">
+                                        <div class="login_btn">
+                                            구글
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
