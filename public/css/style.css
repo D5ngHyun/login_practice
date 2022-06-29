@@ -74,7 +74,7 @@ body { background-color: #EAEAEA; color: rgb(29, 29, 29); }
     height: 1px;
     background-color: var(--mainColor);
     left: -100%;
-    transition: 0.5s;
+    transition: backgroundColor 0.5s;
 }
 
 .input_wrapper_box:hover:after {
