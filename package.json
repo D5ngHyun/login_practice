@@ -1,0 +1,25 @@
+{
+  "name": "register_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,html server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D5ngHyun/login_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D5ngHyun/login_practice/issues"
+  },
+  "homepage": "https://github.com/D5ngHyun/login_practice#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "nunjucks": "^3.2.3"
+  }
+}
